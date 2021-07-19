@@ -9,5 +9,7 @@ test('Heading', () => {
 
 test('Input Field', function(){
   render(<App />)
-  
+  const inputField = screen.getByTestId("Input-Field")
+  expect(inputField).toBeInTheDocument()
+  expect(inputField).toHaveAttribute("type", "text")
 })
