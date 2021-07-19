@@ -1,6 +1,5 @@
 // import './App.css'
-import React from 'React'
-import Link from './link'
+import React from 'react'
 
 function Link() {
   return (

@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react'
 import App from './App'
-import Button from './Button'
 
 test('Heading', () => {
   render(<App />)

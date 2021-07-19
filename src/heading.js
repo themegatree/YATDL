@@ -1,5 +1,5 @@
 // import './App.css'
-import React from 'React'
+import React from 'react'
 
 function Heading() {
   return (

@@ -1,8 +1,9 @@
 
 import './App.css'
-import React from 'React'
+import React from 'react'
 import Heading from './heading'
 import InputField from './inputField'
+import Button from './button'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Heading/>
       <InputField/>
+      <Button/>
     </div>
   )
 }
