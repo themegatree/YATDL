@@ -1,12 +1,12 @@
 // import './App.css'
 import React from 'React'
 
-function inputField() {
+function InputField() {
   return (
-    <div className="inputField">
+    <div className="InputField">
         <input type='text' id='bar'></input>
     </div>
   )
 }
 
-export default inputField
+export default InputField
