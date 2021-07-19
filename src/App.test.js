@@ -1,12 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
-import Button from './Button';
+import { render, screen } from '@testing-library/react'
+import App from './App'
+import Button from './Button'
 
 test('Heading', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Yet Another To Do List/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  render(<App />)
+  const linkElement = screen.getByText(/Yet Another To Do List/i)
+  expect(linkElement).toBeInTheDocument()
+})
 
 test('Input Field', function(){
   render(<App />)
